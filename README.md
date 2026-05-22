@@ -22,6 +22,10 @@ POST /calculator/4
     "Success": true
   }
 }
+
+
+
+
 Conheça o projeto
 Neste desafio, você vai implementar uma nova rota chamada "calculator_4" seguindo o exemplo dado pelo instrutor no
 módulo. A rota deve calcular a média entre uma lista de números fornecida em uma requisição POST,
