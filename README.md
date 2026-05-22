@@ -1,3 +1,27 @@
+
+# Calculadora 4 - Rocketseat
+
+API Flask que calcula a média aritmética de uma lista de números.
+
+## Rota
+
+POST /calculator/4
+
+## Exemplo de body
+
+{
+  "numbers": [10, 20, 30]
+}
+
+## Resposta
+
+{
+  "data": {
+    "Calculator": 4,
+    "value": 20.0,
+    "Success": true
+  }
+}
 Conheça o projeto
 Neste desafio, você vai implementar uma nova rota chamada "calculator_4" seguindo o exemplo dado pelo instrutor no
 módulo. A rota deve calcular a média entre uma lista de números fornecida em uma requisição POST,
