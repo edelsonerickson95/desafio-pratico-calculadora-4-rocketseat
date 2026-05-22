@@ -20,6 +20,9 @@ class Calculator4:
         if "numbers" not in body:
             raise HttpUnprocessableEntityError("body mal formatado")
         input_data = body["numbers"]
+
+        if not isinstance(input_data, list) or len(input_data) == 0:
+            raise HttpUnprocessableEntityError('"numbers" não pode ser uma lista vazia')
         return input_data
 
     def __calculate(self, numbers: List[float]) -> float:
